@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Detector - Full Stack AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/spam.css') }}">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js">
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📧 Spam Detector</h1>
+            <nav id="nav"></nav>
+        </header>
+
+        <main id="main"></main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/spam.js') }}"></script>
+</body>
+</html>
