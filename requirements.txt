@@ -1,5 +1,5 @@
 absl-py==2.4.0
-aiobotocore @ file:///croot/aiobotocore_1738237872287/work
+aiobotocore==<version>
 aiohappyeyeballs @ file:///croot/aiohappyeyeballs_1734469393482/work
 aiohttp @ file:///croot/aiohttp_1734687138658/work
 aioitertools @ file:///tmp/build/80754af9/aioitertools_1607109665762/work
